@@ -483,6 +483,7 @@ a {
     img {
       width: 50%;
     }
+
     h1 {
       font-size: 25px;
       margin: 10px 0;
@@ -491,6 +492,9 @@ a {
       font-size: 13px;
       line-height: 24px;
     }
+  }
+  .block:hover img {
+    transform: translateY(-30px);
   }
 }
 @media (max-width: 370px) {
